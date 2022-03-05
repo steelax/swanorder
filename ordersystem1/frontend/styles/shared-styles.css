@@ -1,0 +1,176 @@
+/*
+   CSS styling examples for the Vaadin app.
+   Visit https://vaadin.com/docs/flow/theme/theming-overview.html and
+   https://vaadin.com/themes/lumo for more information.
+*/
+
+/* Example: CSS class name to center align the content . */
+.centered-content {
+  margin: 0 auto;
+  max-width: auto;
+}
+
+.main-menu{
+	background-color: white;
+	color: rbg(105,107,96);
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+.button-style{
+	background-color: white;
+	color: rbg(105,107,96);
+	border-style: solid; 
+	border-color: rbg(105,107,96);
+	height: 50px;
+	width: 200px;
+}
+
+.small-button-style{
+	background-color: white;
+	color: rbg(105,107,96);
+	height: 30px;
+	width: 40px;
+}
+
+
+.menu-area{
+	
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.staff-menu-area{
+	border: 0px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.staff-menu-area-red{
+	border: 0px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	background-color: RED;
+}
+.img-style{
+	
+	border: 0px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 15px;
+}
+
+.beer-label{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sub-indent{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 300px;
+}
+
+
+.window-theme{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.red-text{
+	color: red;
+}
+.bold-text{
+	font-weight: bold;
+	color: Green;
+}
+.green-icon{
+	color: Green;
+}
+.padded-layout{
+	padding-top: 50px;
+}
+
+.basket-grid{
+	min-height: 200px;
+	height: auto;	
+}
+
+.prod-grid{
+	height: auto;
+	width: auto;
+	
+}
+
+.text-area-style{
+	width:375px;
+	
+}
+
+.drink-list-theme{
+	height:350px;
+	width: auto;
+	
+}
+.gap-label{
+	padding-top: 5px;
+}
+
+.order-number{
+	font-size: 50px;
+	font-weight: bold;
+	color: green;
+	
+}
+
+.corner-button{
+	position: absolute;
+  	top: 20px;
+  	left: 10px;
+}
+
+.corner-button2{
+	position: absolute;
+  	top: 20px;
+  	left: 150px;
+}
+
+.staff-image{
+}
+
+.comment{
+	width: 300px;
+}
+
+.small-Font{
+	font-size: 10px;
+}
+.small-Font.v-grid-cell {
+	font-size: 9px 
+}
+
+.med-Font{
+	font-size: 11px;
+}
+
+.med-Font.v-grid-cell {
+	font-size: 10px 
+}
+
+.normal-Font{
+	font-size: 12px;
+}
+
+.normal-Font.v-grid-cell {
+	font-size: 11px 
+}
